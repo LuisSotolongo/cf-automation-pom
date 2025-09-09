@@ -77,8 +77,8 @@ def test_captura_fallo(driver):
 
         driver.save_screenshot(ruta_archivo)
 
-        #driver.save_screenshot("error_test.png") # Captura de pantalla y guardado
-        raise e
+        driver.save_screenshot("error_test.png") # Captura de pantalla y guardado
+        # raise e
 
 # CUARTA PRUEBA: MANEJO DE ESTADO
 def test_login_logout(driver):
